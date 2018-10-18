@@ -144,7 +144,7 @@ ul.social-icons {
     background-color: #00aced;
 }
 
-.fa-linkedin-square {
+.fa-linkedin {
     padding: 10px 12px;
     -o-transition: .5s;
     -ms-transition: .5s;
@@ -153,6 +153,6 @@ ul.social-icons {
     transition: .5s;
 }
 
-.fa-linkedin-square:hover {
+.fa-linkedin:hover {
     background-color: blue;
 }
