@@ -19,17 +19,17 @@
             <a href="#home" class="active">Jose A Hernandez Torres</a>
         </div>
         <div class="topnav-right">
-            <a href="#about">About</a>
-            <a href="#portfolio">Portfolio</a>
-            <a href="#contact">Contact</a>
+            <a class="line" href="index.html">About</a>
+            <a class="line" href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
         </div>
     </div>
     <div class="spacer"></div>
     <div class="container">
         <header>Contact</header>
         <hr>
-        <div class="form">
-            <form action=" " method="post" autocomplete="on">
+        <div id="content">
+            <form action="http://ss1.ciwcertified.com/cgi-bin/process.pl" method="post" autocomplete="on">
                 <p>
                     <label for="username"><i class="fas fa-user"></i> Name
                         <span class="required">*</span>
@@ -41,29 +41,19 @@
                     <label for="usermail"><i class="fas fa-envelope"></i> E-mail address
                         <span class="required">*</span>
                     </label>
-                    <input type="email" name="usermail" id="usermail" placeholder="No spam here!" required="required" />
-                </p>
-
-                <p>
-                    <label for="usersite"><i class="fas fa-link"></i> Website</label>
-                    <input type="url" name="usersite" id="usersite" placeholder="eg: http://www.example.com" />
-                </p>
-
-                <p>
-                    <label for="subject"><i class="fas fa-bullhorn"></i> Subject</label>
-                    <input type="text" name="subject" id="subject" placeholder="Talk to me, Goose." />
+                    <input type="text" name="usermail" id="usermail" placeholder="No spam from here!" required="required" />
                 </p>
 
                 <p>
                     <label for="message"><i class="fas fa-comments"></i> Message
                         <span class="required">*</span>
                     </label>
-                    <textarea placeholder="Your message to me goes here. " required="required"></textarea>
+                    <textarea name="message" placeholder="Your message to me goes here. " rows="10" cols="50" required="required"></textarea>
                 </p>
                 <p class="indication">Fields with
                     <span class="required"> * </span>are required</p>
 
-                <input type="submit" value=" Send this mail ! " />
+                <input type="submit" value=" Know my thoughts! " />
 
             </form>
 
@@ -73,7 +63,8 @@
         <ul class="social-icons">
             <li><a href="https://www.twitter.com/jhernandeztorre" title="Twitter"><i class="fab fa-twitter-square"
                         aria-hidden="true"></i></a></li>
-            <li><a href="https://github.com/jhernandeztorres" title="Github"><i class="fab fa-github-square" aria-hidden="true"></i></a></li>
+            <li><a href="https://github.com/jhernandeztorres" title="Github"><i class="fab fa-github-square"
+                        aria-hidden="true"></i></a></li>
             <li><a href="https://www.linkedin.com/in/jose-hernandez-torres/" title="Linkedin"><i class="fab fa-linkedin"
                         aria-hidden="true"></i></a></li>
         </ul>
