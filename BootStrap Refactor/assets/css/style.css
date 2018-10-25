@@ -1,8 +1,42 @@
+
 .nav-link:hover{
     background-color: #4aaaa5;
     color: white;
 }
 
+.container {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+h2 {
+    padding-left: 2%;
+}
+
+hr { 
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+
+.img-portfolio {
+    float: left;
+    margin: 1.66%;
+}
+
+.card-text {
+    color: white;
+    margin: 0;
+    padding: 20px 0;
+    width: 90%;
+    position: absolute;
+    text-align: center;
+    border: 1px solid blanchedalmond;
+    background-color: #45a049;
+}
 
 /* Footer */
 
