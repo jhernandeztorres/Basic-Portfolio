@@ -53,6 +53,7 @@ body {
     height: 30px;
     content: ' ';
 }
+
 /* Styling for center box */
 
 .container {
@@ -181,7 +182,9 @@ p {
     padding: 10px;
 }
 
-input[type=text], select, textarea {
+input[type=text],
+select,
+textarea {
     width: 100%;
     padding: 8px;
     border: 1px solid #ccc;
@@ -281,4 +284,58 @@ ul.social-icons {
 
 .fa-linkedin:hover {
     background-color: blue;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 992px) {
+
+    .topnav {
+        float: none;
+        width: 100%;
+        height: 50px;
+        display: block;
+    }
+
+    .container {
+        width: 70%;
+        height: 100%;
+        padding-bottom: 5%;
+        margin-bottom: 10%;
+    }
+
+    .index-html{
+        width: 70%;
+        height: 100%;
+        margin-bottom: 10%;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .topnav {
+        height: 110px;
+    }
+
+    .topnav-centered {
+        float: none;
+        display: inline-block;
+        margin: 0;
+    }
+
+    .topnav-right {
+        float: none;
+        /* display: block; */
+        margin-top: 10%;
+        /* border:2px solid red; */
+    }
+    .container {
+        width: 70%;
+        height: 100%;
+    }
+
+    .index-html{
+        width: 70%;
+        height: 100%;
+        margin-bottom: 10%;
+    }
 }
